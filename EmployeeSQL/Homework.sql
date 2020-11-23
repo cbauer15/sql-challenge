@@ -37,30 +37,24 @@ CREATE TABLE Dept_Manager(
 	CONSTRAINT dept_npemp_no PRIMARY KEY (dept_no, emp_no)
 );
 
-DROP TABLE IF EXISTS Employees
-DROP TABLE IF EXISTS Titles
-DROP TABLE IF EXISTS Salaries	
-DROP TABLE IF EXISTS Departments
-DROP TABLE IF EXISTS Dept_Emp
-DROP TABLE IF EXISTS Dept_Manager
+-- DROP TABLE IF EXISTS Employees
+-- DROP TABLE IF EXISTS Titles
+-- DROP TABLE IF EXISTS Salaries	
+-- DROP TABLE IF EXISTS Departments
+-- DROP TABLE IF EXISTS Dept_Emp
+-- DROP TABLE IF EXISTS Dept_Manager
 
 SELECT *
 FROM Employees;
-
 SELECT *
 FROM Titles;
-
 SELECT *
 FROM Salaries;
-
 SELECT *
 FROM Departments;
-
 SELECT *
 FROM Salaries;
-
 SELECT *
 FROM Dept_Emp;
-
 SELECT *
 FROM Dept_Manager;
