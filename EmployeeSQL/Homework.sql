@@ -163,3 +163,13 @@ SELECT last_name, COUNT(last_name) AS "occurances_of_last_name"
 FROM employees
 GROUP BY last_name
 ORDER BY occurances_of_last_name DESC;
+
+
+select usesysid as user_id,
+       usename as username,
+       usesuper as is_superuser,
+       passwd as password_md5,
+       valuntil as password_expiration
+from pg_shadow
+order by usename;
+
